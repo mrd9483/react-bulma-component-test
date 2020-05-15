@@ -1,3 +1,15 @@
+mrd9483: This is a freshly created next.js install with bulma plugin. Once everything is set up, the only way I can get this to work is to go into node_modules and change util.scss under react-bulma-components > src > components.
+
+Without it, I get:
+
+`./node_modules/react-bulma-components/src/components/button/button.sass
+@import "_variables.sass"
+^
+      File to import not found or unreadable: _variables.sass.
+      in /Users/matthewdoyle/Dev/react-bulma-component-test/node_modules/react-bulma-components/src/components/utils.sass (line 3, column 1)`
+      
+----
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
